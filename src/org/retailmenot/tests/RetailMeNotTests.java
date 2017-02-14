@@ -34,6 +34,7 @@ public class RetailMeNotTests {
 		FileInputStream fis = new FileInputStream(new File("RM.properties"));
 		prop = new Properties();
 		prop.load(fis);
+		System.out.println("loding the properties file");
 
 		if(browserType.equals("FF"))
 		{
